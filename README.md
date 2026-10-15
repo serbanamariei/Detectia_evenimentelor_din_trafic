@@ -1,1 +1,8 @@
 # Detectia_evenimentelor_din_trafic
+
+## Existing Solutions
+
+| No. | Author(s) / Year | Project / Article Title | Application / Field | Used Technologies | Methodology / Approach | Results | Limitations | Additional Comments |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Yong-Kul Ki, Joong-Hyo Kim, Tae-Kyoung Kim, Nak-Won Heo, Jin-Wook Choi, Jun-Ha Jeong / 2018 | Method for Automatic Detection of Traffic Incidents Using Neural Networks and Traffic Data | Traffic Incident Detection | Sensors for measuring speed (data provided by the Urban Traffic Information Center of South Korea) and a three-layer ANN | Pattern Recognition using an artificial neural network (ANN), which utilizes the speed difference between two points to detect an incident | 77.3% detection rate (better than previous models) | Small data set - 202 samples (104 training data, 98 testing data) | This model is more cost-efficient than traditional surveillance systems, due to the fact that it does not use additional hardware. Instead, it utilizes data collected by other institutions, processes it and could notify the operators and drivers in real time, in order to solve the traffic problems that have happened. This article addresses one of the problems we are trying to solve - incident detection. The authors could have used a larger data set to measure the performance more accurately |
+| 2 | B. Shyamala Gowri, Harini Harisitha S, Abishek Kanna M, Amirthavarshini N S / 2025| You Only Look Once Version 8 (YOLOv8)-Driven Emergency Vehicle Detection and Graph Neural Networks (GNNs) based Traffic Signal Prioritization | Traffic Management System | 
